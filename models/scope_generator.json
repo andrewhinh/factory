@@ -1,0 +1,54 @@
+{
+  "generate_scope[0]": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "context": [],
+        "title": "Develop a Collaborative Robot (Cobot) System for Assistive Healthcare Services",
+        "rationale": "ensure that the Collaborative Robot (Cobot) System for Assistive Healthcare Services is developed successfully. We need to break down the development process into manageable tasks to ensure a smooth implementation.",
+        "description": "Develop a Collaborative Robot (Cobot) System that can assist healthcare professionals in providing healthcare services to patients. The system should be able to perform tasks such as patient monitoring, medication reminders, and basic patient care under the supervision of healthcare professionals.",
+        "acceptance_criteria": "1. The Cobot system can monitor patient vital signs and alert healthcare professionals in case of any abnormalities.\n2. The Cobot system can remind patients to take their medication at scheduled times.\n3. The Cobot system can assist patients with basic tasks such as fetching water or adjusting their position",
+        "sub_tasks": "",
+        "assumptions": "1. Design the user interface for the Cobot system.\n2. Develop the backend logic for monitoring patient vital signs and sending alerts.\n3. Implement the medication reminder feature in the Cobot system.\n4. Integrate sensors and actuators for the Cobot system to assist patients with basic tasks.\n5. Test the Cobot system for functionality and reliability.\n6. Create",
+        "dependencies": "1. Availability of sensors and actuators for the Cobot system. 2. Integration with existing healthcare systems for patient data access. 3. Approval from healthcare professionals for the tasks assigned to the Cobot system. 4. Compliance with healthcare regulations and standards for patient care."
+      },
+      {
+        "title": "Enhance Security Measures Against SQL Injection Attacks"
+      }
+    ],
+    "signature_instructions": "\n    Given a minimally described task (with just a title), expand it into a well-scoped ticket suitable for a software engineer to implement.\n    The completed scope for the task must include descriptions, acceptance criteria, sub-tasks, assumptions, and dependencies in markdown format.\n    Consider what details are necessary to turn a simple title into a fully scoped task.\n    Think about industry best practices and what information engineers need to avoid ambiguity and back-and-forth.\n    What information could be helpful to understand how to scope a ticket properly?\n\n    e.g. \"Create a login page\" ->\n    **Description:** Create a login page that allows users to sign in with their email and password.\n\n    **Acceptance Criteria:**\n    1. Users can enter their email and password.\n    2. Users can click a \"Sign In\" button to log in.\n    3. Users see an error message if they enter an incorrect email or password.\n\n    **Sub-tasks:**\n    1. Design the login page UI.\n    2. Implement the login page frontend.\n    3. Implement the login page backend.\n\n    **Assumptions:**\n    1. The backend API for user authentication is already implemented.\n    2. The design for the login page is already approved.\n\n    **Dependencies:**\n    1. The backend API for user authentication.\n    2. The approved design for the login page.\n    ",
+    "signature_prefix": "Dependencies:",
+    "extended_signature_instructions": "Proposed Instruction: Transform the provided minimalist task title into a consolidated, actionable project ticket. This expanded ticket should serve as a comprehensive blueprint for software engineers or IT professionals, facilitating their understanding and execution of the project. Ensure that your elaboration includes a detailed description, clear acceptance criteria, a list of tangible sub-tasks, any necessary assumptions for project foundation, and identified dependencies critical for project integration. Your expansion should cater to the precision and specificity demanded in the fields of software development and IT operations. Leverage your knowledge of industry standards, project management best practices, and technical acumen to pre-empt and address potential ambiguities or misunderstandings. Your goal is to produce a fully fleshed-out project ticket that minimizes the need for further clarification",
+    "extended_signature_prefix": "Proposed Prefix For Output Field: **Project Ticket Expansion:**"
+  },
+  "generate_scope[1]": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "context": [
+          "The current image processing algorithm used for uploading images to our platform is causing delays in the upload process. We need to optimize the algorithm to improve upload speeds and ensure a seamless user experience.\n1. Image uploads should be processed 30% faster than the current algorithm.\n2. The optimized algorithm should not compromise the quality of the processed images.\n3. The upload process should remain stable even under high traffic conditions.\n1. Analyze the current image processing algorithm to identify bottlenecks.\n2. Research and implement optimization techniques to improve upload\n\n1. The current image processing algorithm is the main cause of delays in image uploads.\n2. The quality of the processed images should not be compromised during the optimization process.\n\nDependencies: 1. Access to the current image processing algorithm codebase. 2. Testing environment to evaluate the impact of the optimized algorithm on upload speeds."
+        ],
+        "title": "Optimize Image Processing Algorithm for Faster Uploads",
+        "rationale": "optimize the image processing algorithm for faster uploads. We need to analyze the current algorithm, research optimization techniques, implement the changes, and test the impact on upload speeds.",
+        "description": "The task involves optimizing the current image processing algorithm used for uploading images to the platform to improve upload speeds without compromising image quality.",
+        "acceptance_criteria": "1. Image uploads are processed 30% faster than with the current algorithm.\n2. The quality of the processed images remains consistent or improves.\n3. The upload process remains stable even under high traffic conditions.",
+        "sub_tasks": "1. Analyze the current image processing algorithm to identify bottlenecks.\n2. Research optimization techniques to improve upload speeds.\n3. Implement changes to the algorithm to optimize performance.\n4. Test the impact",
+        "assumptions": "",
+        "dependencies": "1. The current image processing algorithm is the main cause of delays in image uploads.\n2. The quality of the processed images should not be compromised during the optimization process.\n\nDependencies: 1. Access to the current image processing algorithm codebase. 2. Testing environment to evaluate the impact of the optimized algorithm on upload speeds."
+      },
+      {
+        "title": "Enhance Virtual Reality Experiences in Real Estate Property Tours"
+      }
+    ],
+    "signature_instructions": "\n    Given a minimally described task (with just a title), expand it into a well-scoped ticket suitable for a software engineer to implement.\n    The completed scope for the task must include descriptions, acceptance criteria, sub-tasks, assumptions, and dependencies in markdown format.\n    Consider what details are necessary to turn a simple title into a fully scoped task.\n    Think about industry best practices and what information engineers need to avoid ambiguity and back-and-forth.\n    What information could be helpful to understand how to scope a ticket properly?\n\n    e.g. \"Create a login page\" ->\n    **Description:** Create a login page that allows users to sign in with their email and password.\n\n    **Acceptance Criteria:**\n    1. Users can enter their email and password.\n    2. Users can click a \"Sign In\" button to log in.\n    3. Users see an error message if they enter an incorrect email or password.\n\n    **Sub-tasks:**\n    1. Design the login page UI.\n    2. Implement the login page frontend.\n    3. Implement the login page backend.\n\n    **Assumptions:**\n    1. The backend API for user authentication is already implemented.\n    2. The design for the login page is already approved.\n\n    **Dependencies:**\n    1. The backend API for user authentication.\n    2. The approved design for the login page.\n    ",
+    "signature_prefix": "Dependencies:",
+    "extended_signature_instructions": "Proposed Instruction: Transform a brief project title into a comprehensive and detailed project plan suitable for execution by a software engineering team. This plan should encapsulate all essential aspects required for the engineering team to commence work without the need for additional clarifications, hence reducing the project's cycle time and increasing efficiency. Ensure your expansion captures the project's essence, specifying the goals, detailed descriptions, clearly defined acceptance criteria, structured sub-tasks for breaking down the work, reasonable assumptions based on the given context, and any dependencies that might impact the project timeline or execution. Keep in mind the target audience's technical background and the project's fields such as database management, security, or UI\/UX enhancements. Leverage best practices from software development and IT operations to craft",
+    "extended_signature_prefix": "Proposed Prefix For Output Field: **Project Plan:**"
+  }
+}
